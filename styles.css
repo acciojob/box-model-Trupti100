@@ -1,37 +1,30 @@
-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #f0f0f0;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    border: 2px solid #101;
-    border-radius: 10px;
-    width: 300px;
-  }
-  
-  .green, .yellow, .red {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-  }
-  
-  .green {
-    background-color: #3ce76f;
-  }
-  
-  .yellow {
-    background-color: #c9cc2e;
-  }
-  
-  .red {
-    background-color: #f31230;
-  }
-  
+.container{
+	display:flex;
+	justify-content:center;
+	border:5px solid black;
+	border-radius:50px;
+	background-color:#d4d3d2;
+    padding:50px;
+	gap:5px;
+}
+.green{
+	width:100px;
+	height:100px;
+	border:none;
+	border-radius:50%;
+	background-color:green;
+}
+.yellow{
+	width:100px;
+	height:100px;
+	border:none;
+	border-radius:50%;
+	background-color:yellow;
+}
+.red{
+	width:100px;
+	height:100px;
+	border:none;
+	border-radius:50%;
+	background-color:red;
+}
